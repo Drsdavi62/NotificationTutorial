@@ -1,0 +1,29 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+input {
+    margin-bottom: 16px;
+}
+
+input:not(.check) {
+    height: 40px;
+    font-size: 16px;
+}
